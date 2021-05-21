@@ -1,2 +1,2 @@
-# recipe-app-api
-Recipe app api source code
+# cookbook-api
+Cookbook api testing
