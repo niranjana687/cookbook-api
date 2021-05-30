@@ -21,7 +21,7 @@ class ModelTests(TestCase):
     def test_new_user_email_normalised(self):
         """"Test checking if email for new user is normalised"""
         email = "niranjana@GMAIL.COM"
-        user = get_user_model.objects.create_user(
+        user = get_user_model().objects.create_user(
             email, 
             'mathiBro'
             )
